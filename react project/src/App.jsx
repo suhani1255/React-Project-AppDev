@@ -2,8 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Pdf from '../Documents/resPDF.pdf';
-
+/*
 function AboutMe({props}){
   return <h4>I am a {props.major} major graduating in 2027!</h4>;
 
@@ -19,7 +18,7 @@ function AboutMeP() {
     </>
   );
 }
-
+*/
 
 // Navbar component
 function NavBar() {
@@ -52,16 +51,12 @@ function App() {
   return (
     <>
     <NavBar />
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+    
       <h1>About Me</h1>
       <div className="about">
+        <p>My name is Suhani Patel and I am a Computer Science Major at the 
+          University of Maryland. My expected graduation year is 2027.</p>
+
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
@@ -77,3 +72,11 @@ function App() {
 }
 
 export default App
+/*
+ <a href="https://vitejs.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+*/
