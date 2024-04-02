@@ -35,7 +35,7 @@ function NavBar() {
           Resume
         </li>
         <li>
-          Hobbies
+          <a href = "hobbies.html">Hobbies</a>
         </li>
         <li>
           Contact
@@ -51,7 +51,7 @@ function App() {
   return (
     <>
     <NavBar />
-    
+
       <h1>About Me</h1>
       <div className="about">
         <p>My name is Suhani Patel and I am a Computer Science Major at the 
