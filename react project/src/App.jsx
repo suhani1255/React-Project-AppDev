@@ -32,7 +32,7 @@ function NavBar() {
           Home
         </li>
         <li>
-          Resume
+        <a href = "file:///Users/suhanipatel/Documents/resPDF.pdf">Resume</a>
         </li>
         <li>
           <a href = "hobbies.html">Hobbies</a>
